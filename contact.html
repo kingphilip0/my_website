@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Website</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="about-page">
+    <h2>Contact Me</h2>
+    <p>Want to get in touch? Fill out the form below or email me at <strong>you@example.com</strong>.</p>
+
+    <!-- Replace YOUR_FORM_ID with the one from Formspree -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required><br><br>
+      <input type="email" name="email" placeholder="Your Email" required><br><br>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br><br>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My Website | Built with ❤️ using HTML & CSS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
