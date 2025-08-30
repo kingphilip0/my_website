@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="welcomeMessage()">
+  <!-- Header / Navbar -->
+  <header>
+    <h1>My Website</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/profile.jpg" alt="My Photo">
+    <h2>Welcome to My Website!</h2>
+    <p>This is my very first webpage, coded by me 🎉</p>
+    <a href="about.html">Learn More</a>
+  </section>
+
+  <!-- About Preview Section -->
+  <section class="about-preview">
+    <h2>About Me</h2>
+    <p>Hi, I'm learning web development step by step. This site is my project to practice HTML, CSS, and soon JavaScript.</p>
+    <a href="about.html">Read More</a>
+  </section>
+
+  <!-- Projects Preview -->
+  <section class="about-preview">
+    <h2>My Projects</h2>
+    <p>Here are some of the projects I’ve worked on recently.</p>
+    <a href="projects.html">View Projects</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My Website | Built with ❤️ using HTML & CSS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
